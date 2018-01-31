@@ -1,0 +1,13 @@
+  <li><em>Commit log headers</em>
+    <blockquote>
+      <ul>
+        <li><em>Scope:</em> <code><%- entry.dt %></code>
+        <% _.forEach(entry.conventionalCommitTypes, (change) => { %>
+          <p><li><em>Type:</em> <code><%- change %></code>
+          <p>Sample commit message header: <pre><code>
+            <%- commitType %>(<%- entry.dt %>): 50-character change summary
+          </code></pre>
+        <% }) %>
+      </ul>
+    </blockquote>
+  </li>

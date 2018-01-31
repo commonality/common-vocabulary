@@ -1,0 +1,162 @@
+[{
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "catalog",
+    "meta": {},
+    "title": "Catalog"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "checkout",
+    "meta": {},
+    "title": "Checkout"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs"],
+    "dd": null,
+    "dfn": null,
+    "dt": "demo",
+    "meta": {},
+    "title": "Demonstration"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs"],
+    "dd": null,
+    "dfn": null,
+    "dt": "geolocation",
+    "meta": {},
+    "title": "Geolocation"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "inventory",
+    "meta": {},
+    "title": "Inventory"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs"],
+    "dd": null,
+    "dfn": null,
+    "dt": "media",
+    "meta": {},
+    "title": "Media"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs"],
+    "dd": null,
+    "dfn": null,
+    "dt": "offer",
+    "meta": {},
+    "title": "Offer"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "order",
+    "meta": {},
+    "title": "Order"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "payment",
+    "meta": {},
+    "title": "Payment"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "pricing",
+    "meta": {},
+    "title": "Pricing"
+  }, {
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "promotionMessage",
+    "meta": {},
+    "title": "Promotion Message"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "rating",
+    "meta": {},
+    "title": "Ratings"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "registration",
+    "meta": {},
+    "title": "Registration"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "search",
+    "meta": {},
+    "title": "Search"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "social",
+    "meta": {},
+    "title": "Social"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "store",
+    "meta": {},
+    "title": "Store"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "util",
+    "meta": {},
+    "title": "Utilities"
+  },
+  {
+    "category": null,
+    "conventionalCommitTypes": ["docs", "feat"],
+    "dd": null,
+    "dfn": null,
+    "dt": "workflow",
+    "meta": {},
+    "title": "Workflows"
+  }
+]

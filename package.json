@@ -1,0 +1,103 @@
+{
+  "name": "common-vocabulary",
+  "description": "Facilitate communication and avoid confusion with canonical terms: share a common vocabulary.",
+  "version": "0.0.0",
+  "author": {
+    "name": "commonality",
+    "email": "greg@swindle.net",
+    "url": "https://github.com/gregswindle"
+  },
+  "bin": "lib/cli/index.js",
+  "bugs": {
+    "url": "https://github.com/commonality/common-vocabulary/issues"
+  },
+  "commitplease": {
+    "style": "angular",
+    "types": [
+      "build",
+      "chore",
+      "ci",
+      "docs",
+      "feat",
+      "fix",
+      "perf",
+      "refactor",
+      "revert",
+      "style",
+      "test"
+    ],
+    "scope": "\\S+.*"
+  },
+  "contributors": [{
+    "name": "Greg Swindle",
+    "email": "greg@swindle.net",
+    "url": "https://github.com/gregswindle"
+  }],
+  "dependencies": {
+    "conventional-commit-types": "2.2.0",
+    "fs-extra": "5.0.0",
+    "lodash": "4.17.4",
+    "markdown-magic": "0.1.18",
+    "markdown-magic-install-command": "1.3.1",
+    "meow": "^3.7.0",
+    "object-hash": "1.2.0"
+  },
+  "devDependencies": {
+    "commitplease": "3.1.0",
+    "coveralls": "^2.13.1",
+    "eslint": "^4.16.0",
+    "eslint-config-scanjs": "1.0.0-beta4",
+    "eslint-config-standard": "11.0.0-beta.0",
+    "eslint-config-xo-space": "0.17.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsdoc": "3.3.1",
+    "eslint-plugin-json": "1.2.0",
+    "eslint-plugin-no-unsafe-innerhtml": "1.0.16",
+    "eslint-plugin-no-unsanitized": "2.0.2",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-scanjs-rules": "0.2.1",
+    "eslint-plugin-security": "1.4.0",
+    "eslint-plugin-standard": "3.0.1",
+    "eslint-plugin-unicorn": "3.0.1",
+    "eslint-plugin-xss": "0.1.9",
+    "fixpack": "2.3.1",
+    "jest": "^19.0.2",
+    "jest-cli": "^20.0.0",
+    "lec": "^1.0.1",
+    "nsp": "^2.6.3",
+    "standard-version": "4.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/commonality/common-vocabulary",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    ""
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [],
+  "repository": "https://github.com/commonality/common-vocabulary.git",
+  "scripts": {
+    "docs": "npm run docs:toc",
+    "docs:toc": "md-magic --path '**/*.md' --ignore 'node_modules'",
+    "lint": "npm run lint:js",
+    "lint:js": "eslint . --ext .json --ext .js --fix",
+    "lint:manifest": "fixpack",
+    "posttest": "npm run security",
+    "prepare": "npm run lint && npm run security",
+    "prepublish": "nsp check",
+    "prepublishOnly": "nsp check",
+    "pretest": "npm run lint",
+    "security": "nsp check --output summary",
+    "security:nsp:scan": "nsp check",
+    "test": "jest --config=jest.config.json"
+  }
+}

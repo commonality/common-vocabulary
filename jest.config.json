@@ -1,0 +1,28 @@
+{
+  "name": "common-vocabulary",
+  "automock": false,
+  "collectCoverage": true,
+  "coverageDirectory": "./docs/reports/coverage",
+  "coveragePathIgnorePatterns": [
+    "/__fixtures__/",
+    "/__mocks__/",
+    "/__tests__/",
+    "/node_modules/",
+    "/reports/"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "branches": 90,
+      "functions": 90,
+      "lines": 90,
+      "statements": 90
+    }
+  },
+  "testPathIgnorePatterns": [
+    "/__fixtures__/",
+    "/__mocks__/",
+    "/node_modules/",
+    "/docs/"
+  ],
+  "verbose": true
+}

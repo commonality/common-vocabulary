@@ -1,0 +1,15 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Greg Swindle",
+      "authorEmail": "greg@swindle.net",
+      "authorUrl": "https://github.com/gregswindle"
+    }
+  },
+  "generator-community": {
+    "promptValues": {
+      "lang": "Node.js",
+      "dependencyManager": "npm"
+    }
+  }
+}
