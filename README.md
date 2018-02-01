@@ -2,6 +2,8 @@
 
 # `common-vocabulary`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/commonality/common-vocabulary.svg)](https://greenkeeper.io/)
+
 > Facilitate communication and avoid confusion with canonical terms: share a common vocabulary.
 
 [![NPM version][npm-image]][npm-url]
