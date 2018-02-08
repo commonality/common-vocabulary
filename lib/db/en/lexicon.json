@@ -1,41 +1,41 @@
 [{
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "A complete list of available products for purchase.",
     "dfn": null,
     "dt": "catalog",
     "meta": {},
     "title": "Catalog"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "A point at which goods are paid for.",
     "dfn": null,
     "dt": "checkout",
     "meta": {},
     "title": "Checkout"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs"],
-    "dd": null,
+    "dd": "The action or process of showing the existence or truth of something by giving proof or evidence.",
     "dfn": null,
     "dt": "demo",
     "meta": {},
     "title": "Demonstration"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs"],
-    "dd": null,
+    "dd": "The process or technique of identifying the geographical location of a person or device by means of digital information processed via the Internet.",
     "dfn": null,
     "dt": "geolocation",
     "meta": {},
     "title": "Geolocation"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
     "dd": null,
     "dfn": null,
@@ -44,7 +44,7 @@
     "title": "Inventory"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs"],
     "dd": null,
     "dfn": null,
@@ -53,7 +53,7 @@
     "title": "Media"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs"],
     "dd": null,
     "dfn": null,
@@ -62,7 +62,7 @@
     "title": "Offer"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
     "dd": null,
     "dfn": null,
@@ -71,7 +71,7 @@
     "title": "Order"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
     "dd": null,
     "dfn": null,
@@ -80,7 +80,7 @@
     "title": "Payment"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
     "dd": null,
     "dfn": null,
@@ -88,7 +88,7 @@
     "meta": {},
     "title": "Pricing"
   }, {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
     "dd": null,
     "dfn": null,
@@ -97,7 +97,7 @@
     "title": "Promotion Message"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
     "dd": null,
     "dfn": null,
@@ -106,7 +106,7 @@
     "title": "Ratings"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
     "dd": null,
     "dfn": null,
@@ -115,7 +115,7 @@
     "title": "Registration"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
     "dd": null,
     "dfn": null,
@@ -124,7 +124,7 @@
     "title": "Search"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
     "dd": null,
     "dfn": null,
@@ -133,7 +133,7 @@
     "title": "Social"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
     "dd": null,
     "dfn": null,
@@ -142,7 +142,7 @@
     "title": "Store"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
     "dd": null,
     "dfn": null,
@@ -151,7 +151,7 @@
     "title": "Utilities"
   },
   {
-    "category": null,
+    "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
     "dd": null,
     "dfn": null,
