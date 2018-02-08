@@ -933,8 +933,8 @@
  | [eslint-plugin-unicorn@3.0.1](https://github.com/sindresorhus/eslint-plugin-unicorn#readme) | Various awesome ESLint rules | 3.0.1 | MIT | dev | 
  | [eslint-plugin-xss@0.1.9](https://github.com/Rantanen/eslint-plugin-xss#readme) | Validates XSS related issues of mixing HTML and non-HTML content in variables. | 0.1.9 | ISC | dev | 
  | [fixpack@2.3.1](https://github.com/henrikjoreteg/fixpack) | cli tool that cleans up package.json files. | 2.3.1 | MIT | dev | 
- | [jest@22.2.1](http://facebook.github.io/jest/) | Delightful JavaScript Testing. | 22.2.1 | MIT | dev | 
- | [jest-cli@22.2.1](http://facebook.github.io/jest/) | Delightful JavaScript Testing. | 22.2.1 | MIT | dev | 
+ | [jest@^22.1.4](http://facebook.github.io/jest/) | Delightful JavaScript Testing. | 22.2.1 | MIT | dev | 
+ | [jest-cli@^22.1.4](http://facebook.github.io/jest/) | Delightful JavaScript Testing. | 22.2.1 | MIT | dev | 
  | [lec@^1.0.1](https://github.com/iShafayet/lec) | Command Line Wrapper for Line Ending Corrector (An utility that makes sure your files have consistent line endings) | 1.0.1 | MIT | dev | 
  | [markdown-magic-dependency-table@1.3.2](https://github.com/camacho/markdown-magic-dependency-table#readme) | Generate table of information about dependencies automatically in markdown | 1.3.2 | MIT | dev | 
  | [markdown-magic-package-scripts@1.2.1](https://github.com/camacho/markdown-magic-package-scripts#readme) | Print list of scripts in package.json with descriptions | 1.2.1 | MIT | dev | 
