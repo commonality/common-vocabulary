@@ -3,11 +3,11 @@ const ConventionalCommitsAdaptor =
 
 describe('commonality/common-vocabulary', () => {
 
-  let adaptor = ConventionalCommitsAdaptor
+  let adaptor = null
   const SPACES = 2
 
   beforeEach(() => {
-    adaptor = ConventionalCommitsAdaptor
+    adaptor = new ConventionalCommitsAdaptor()
   })
 
   afterEach(() => {
@@ -17,8 +17,11 @@ describe('commonality/common-vocabulary', () => {
   it('builds a standard vocabulary or terms with defintions', () => {
     expect(adaptor).toBeDefined()
     expect(adaptor).not.toBeNull()
-    console.log(JSON.stringify(adaptor, null, SPACES))
   })
 
-  it('adapts the conventional-commits-types definitions to its lexicon')
+  it('adapts the conventional-commits-types definitions to its lexicon', () => {
+    const entries = adaptor.adapt()
+    expect(entries.length).toBe(11)
+    // console.log(JSON.stringify(entries, null, SPACES))
+  })
 })
