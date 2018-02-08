@@ -58,7 +58,8 @@ The latest version of `common-vocabulary` is `0.0.0`. View the [`CHANGELOG`][cha
 
 ## Contributing
 
-[![Learn how to make a Pull Request with free training][prs-welcome-badge-image]][prs-welcome-url] We welcome contributions with [Pull Requests (PRs)][prs-welcome-url]!
+[![Learn how to make a Pull Request with free training][prs-welcome-badge-image]][prs-welcome-url] [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcommonality%2Fcommon-vocabulary.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcommonality%2Fcommon-vocabulary?ref=badge_shield)
+We welcome contributions with [Pull Requests (PRs)][prs-welcome-url]!
 
 **[:four_leaf_clover: Read the CONTRIBUTING guidelines to get started. :four_leaf_clover:][contributing-url]**
 
@@ -121,3 +122,6 @@ Contributions in the form of GitHub pull requests are welcome. Before embarking 
 [pulls-url]: /commonality/common-vocabulary.git/pulls
 [travis-image]: https://travis-ci.org/commonality/common-vocabulary.svg?branch=master
 [travis-url]: https://travis-ci.org/commonality/common-vocabulary
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcommonality%2Fcommon-vocabulary.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcommonality%2Fcommon-vocabulary?ref=badge_large)
