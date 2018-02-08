@@ -1,13 +1,12 @@
+/* eslint max-statements: ["error", 25] */
 const CommonVocabulary = require('../../lib/common-vocabulary')
 const {commonVocabLogger} = require('../../lib')
 const {first, last, noop} = require('lodash')
 const fs = require('fs-extra')
 
 describe('commonality/common-vocabulary', () => {
-
   let cv = null
   let entryCount = 0
-  const SPACES = 2
 
   beforeAll(() => {
     jest.enableAutomock()
@@ -20,12 +19,13 @@ describe('commonality/common-vocabulary', () => {
 
   afterEach(() => {
     cv = null
-    entryCount = 0
+    entryCount = null
     jest.clearAllTimers()
   })
 
   afterAll(() => {
-    jest.disableAutomock().resetAllMocks().resetModules()
+    jest.disableAutomock().resetAllMocks()
+      .resetModules()
   })
 
   it('builds a standard vocabulary or terms with defintions', () => {
@@ -34,22 +34,29 @@ describe('commonality/common-vocabulary', () => {
   })
 
   it('removes all term/lexical-entry pairs from the lexicon', () => {
-    expect(cv.lexicon.size).toBeGreaterThan(0)
+    const ZERO = 0
+    expect(cv.lexicon.size).toBeGreaterThan(ZERO)
     cv.clear()
-    expect(cv.lexicon.size).toBe(0)
+    expect(cv.lexicon.size).toBe(ZERO)
   })
 
   it('concatenates other lexicons', () => {
-    //console.log(cv.toArray());
+    // Console.log(cv.toArray());
   })
 
   it('adds new terms and definitions to its lexicon', () => {
     cv.define('term', 'definition', 'test-entry')
-    expect(cv.lexicon.size).toBe(entryCount + 1)
+    // eslint-disable-next-line no-magic-numbers
+    let SIZE = entryCount + 1
+    expect(cv.lexicon.size).toBe(SIZE)
 
-    cv.set('another-term', {"dd": 'Another Definition'})
+    cv.set('another-term', {
+      'dd': 'Another Definition'
+    })
 
-    expect(cv.lexicon.size).toBe(entryCount + 2)
+    // eslint-disable-next-line no-magic-numbers
+    SIZE = entryCount + 2
+    expect(cv.lexicon.size).toBe(SIZE)
   })
 
   it('retreives a definition for a given term', () => {
@@ -66,6 +73,7 @@ describe('commonality/common-vocabulary', () => {
 
   it('removes a term from its lexicon', () => {
     cv.delete('catalog')
+    // eslint-disable-next-line no-magic-numbers
     expect(cv.lexicon.size).toBe(entryCount - 1)
     expect(cv.definition('catalog')).toBeUndefined()
   })
@@ -116,5 +124,4 @@ describe('commonality/common-vocabulary', () => {
   it('overrides "valueOf" to return all defintions', () => {
     expect(cv.valueOf().length).toBe(cv.definitions().length)
   })
-
 })

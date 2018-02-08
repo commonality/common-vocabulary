@@ -4,7 +4,6 @@ const {commonVocabLogger} = require('../../lib')
 const {noop} = require('lodash')
 
 describe('commonality/common-vocabulary.lexicon-factory', () => {
-
   let lexiconFactory = null
 
   afterEach(() => {

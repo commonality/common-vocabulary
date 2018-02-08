@@ -39,6 +39,8 @@ globals:
   document: false
   navigator: false
   window: false
+  jasmine: true
+  spyOn: true
 rules:
   accessor-pairs: error
   allowAllPropertiesOnSameLine: false
