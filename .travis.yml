@@ -1,6 +1,10 @@
+os: osx
 language: node_js
 node_js:
+  - 9
   - 8
-  - 6
-  - 4
+before_script:
+  - npm prune
+script:
+  - npm test
 after_script: 'cat ./docs/reports/coverage/lcov.info | coveralls'
