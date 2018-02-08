@@ -8,6 +8,8 @@
 [![NPM version][npm-image]][npm-url]
 [![FOSSA Status][fossa-image]][fossa-url]
 [![NSP Status][nsp-image]][nsp-url]<br>
+[![Dependency drift][bithound-image]][bithound-url]
+[![Dev dependency drift][bithound-dev-image]][bithound-dev-url]<br>
 [![macOS Build Status][travis-image]][travis-url]
 [![AppVeyor Windows build status][appveyor-image]][appveyor-url]
 [![Coverage percentage][coveralls-image]][coveralls-url]
@@ -102,11 +104,15 @@ Contributions in the form of GitHub pull requests are welcome. Before embarking 
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcommonality%2Fcommon-vocabulary.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcommonality%2Fcommon-vocabulary?ref=badge_large)
 
+---
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/commonality/common-vocabulary.svg?style=flat-square)](https://greenkeeper.io/)
+[![README doc score][readme-score-img]][readme-score-url]
 
 <!-- ⛔️ 📝 NOTE: PLEASE ALPHABETIZE LINK REFERENCES. 📝 ⛔️ -->
 
-[appveyor-image]: https://img.shields.io/appveyor/ci/commonality/common-vocabulary.svg?style=flat-square&logo=appveyor
-[appveyor-url]: https://ci.appveyor.com/project/commonality/common-vocabulary
+[appveyor-image]: https://img.shields.io/appveyor/ci/gregswindle/common-vocabulary.svg?style=flat-square&logo=appveyor
+[appveyor-url]: https://ci.appveyor.com/project/gregswindle/common-vocabulary
 [author-url]: https://github.com/commonality
 [changelog-url]: ./CHANGELOG.md
 [codacy-image]: https://img.shields.io/codacy/grade/58a7e841538a49cc8a5d35eba00e6c07.svg?style=flat-square
@@ -115,10 +121,12 @@ Contributions in the form of GitHub pull requests are welcome. Before embarking 
 [code-of-conduct-url]: https://github.com/commonality/common-vocabulary/blob/master/.github/CODE_OF_CONDUCT.md
 [contributing-image]: https://img.shields.io/badge/read---CONTRIBUTING%20Guidelines---yellow.svg?style=for-the-badge&label=read+the
 [contributing-url]: ./CONTRIBUTING.md
-[coveralls-image]: https://img.shields.io/coveralls/repos/commonality/common-vocabulary/badge.svg?branch=master&style=flat-square
+[coveralls-image]: https://img.shields.io/coveralls/github/commonality/common-vocabulary.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/commonality/common-vocabulary
-[daviddm-image]: https://david-dm.org/commonality/common-vocabulary.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/commonality/common-vocabulary
+[bithound-image]: https://img.shields.io/bithound/dependencies/github/commonality/common-vocabulary.svg?style=flat-square
+[bithound-url]: https://www.bithound.io/github/commonality/common-vocabulary/master/dependencies/npm
+[bithound-dev-image]: https://img.shields.io/bithound/devDependencies/github/commonality/common-vocabulary.svg?style=flat-square
+[bithound-dev-url]: https://www.bithound.io/github/commonality/common-vocabulary/master/dependencies/npm
 [fossa-image]: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcommonality%2Fcommon-vocabulary.svg?type=shield&style=flat-square
 [fossa-url]: https://app.fossa.io/projects/git%2Bgithub.com%2Fcommonality%2Fcommon-vocabulary?ref=badge_shield
 [issues-new-defect-image]: https://img.shields.io/badge/report---defect---lightgrey.svg?style=for-the-badge&label=report+a
@@ -146,9 +154,9 @@ Contributions in the form of GitHub pull requests are welcome. Before embarking 
 [prs-welcome-url]: http://makeapullrequest.com
 [pulls-url]: /commonality/common-vocabulary.git/pulls
 [readme-score-img]: http://readme-score-api.herokuapp.com/score.svg?url=https://github.com/commonality/common-vocabulary
-[readme-score-url]: http://clayallsopp.github.io/readme-score?url=https://github.com/commonality/common-vocabulary
+[readme-score-url]: http://clayallsopp.github.io/readme-score?url=https://github.com/commonality/common-vocabulary&style=flat-square
 [refactoring-url]: https://github.com/commonality/common-vocabulary/wiki/Refactorings-by-category
 [scoreme-url]: http://clayallsopp.github.io/readme-score/?url=https://github.com/commonality/common-vocabulary/blob/master/README.md
 [travis-image]: https://img.shields.io/travis/commonality/common-vocabulary/master.svg?style=flat-square
-[travis-image]: https://travis-ci.org/commonality/common-vocabulary.svg?branch=master
+[travis-image]: https://img.shields.io/travis/commonality/common-vocabulary/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/commonality/common-vocabulary

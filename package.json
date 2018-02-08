@@ -1,7 +1,7 @@
 {
   "name": "common-vocabulary",
   "description": "Facilitate communication and avoid confusion with canonical terms: share a common vocabulary.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": {
     "name": "commonality",
     "email": "greg@swindle.net",
@@ -86,7 +86,10 @@
     "testEnvironment": "node"
   },
   "keywords": [
-    ""
+    "collaboration",
+    "communication",
+    "controlled vocabulary",
+    "standards"
   ],
   "license": "MIT",
   "main": "lib/index.js",
@@ -94,8 +97,8 @@
   "repository": "https://github.com/commonality/common-vocabulary.git",
   "scripts": {
     "docs": "npm run docs:markdown",
-    "docs:toc": "md-magic --path '**/*.md' --ignore 'node_modules'",
     "docs:markdown": "md-magic --path '{.github/*.md,**/*.md}' '**/*.md' --ignore 'node_modules' --config ./markdown.config.js",
+    "docs:toc": "md-magic --path '**/*.md' --ignore 'node_modules'",
     "lint": "npm run lint:js",
     "lint:js": "eslint . --ext .json --ext .js --fix",
     "lint:manifest": "fixpack",
