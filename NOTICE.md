@@ -22,12 +22,13 @@ The following 3rd-party software components may be used by or distributed with *
 Library|Licenses
 -------|--------
 **[object-hash (1.2.0)](#object-hash)**|mit
-**[meow (3.7.0)](#meow)**|mit
+**[meow (4.0.0)](#meow)**|mit
 **[markdown-magic-install-command (1.3.1)](#markdown-magic-install-command)**|mit
-**[markdown-magic (0.1.18)](#markdown-magic)**|mit
-**[lodash (4.17.4)](#lodash)**|**Multi-license:** See-URL *OR* mit
+**[markdown-magic (0.1.20)](#markdown-magic)**|mit
+**[lodash (4.17.5)](#lodash)**|**Multi-license:** See-URL *OR* mit
 **[fs-extra (5.0.0)](#fs-extra)**|mit
 **[conventional-commit-types (2.2.0)](#conventional-commit-types)**|isc
+**[bunyan (1.8.12)](#bunyan)**|mit
 
 
 
@@ -69,7 +70,7 @@ Library|Licenses
 
 
 
-#### **meow (3.7.0)**
+#### **meow (4.0.0)**
 
 * Description  
     CLI app helper
@@ -135,7 +136,7 @@ Library|Licenses
 
 
 
-#### **markdown-magic (0.1.18)**
+#### **markdown-magic (0.1.20)**
 
 * Description  
     Automatically update markdown files with content from external sources
@@ -168,7 +169,7 @@ Library|Licenses
 
 
 
-#### **lodash (4.17.4)**
+#### **lodash (4.17.5)**
 
 * Description  
     Lodash modular utilities.
@@ -274,6 +275,39 @@ Library|Licenses
 
 
 
+#### **bunyan (1.8.12)**
+
+* Description  
+    a JSON logging library for node.js services
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [trentm@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/trentm/node-bunyan
+
+
+* Notes
+
+
+
 
 
 
@@ -288,7 +322,9 @@ Library|Licenses
 **[core-util-is (1.0.2)](#core-util-is)**|mit
 **[spdx-correct (1.0.2)](#spdx-correct)**|apache2
 **[commander (2.9.0)](#commander)**|mit
+**[glob (7.1.2)](#glob)**|**Multi-license:** isc *OR* mit
 **[promise (7.1.1)](#promise)**|mit
+**[ncp (2.0.0)](#ncp)**|mit
 **[concat-map (0.0.1)](#concat-map)**|mit
 **[isarray (1.0.0)](#isarray)**|mit
 **[typedarray (0.0.6)](#typedarray)**|mit
@@ -300,37 +336,32 @@ Library|Licenses
 **[path-is-absolute (1.0.1)](#path-is-absolute)**|mit
 **[pinkie (2.0.4)](#pinkie)**|mit
 **[inherits (2.0.3)](#inherits)**|**Multi-license:** isc *OR* mit
-**[get-stdin (4.0.1)](#get-stdin)**|mit
 **[inflight (1.0.6)](#inflight)**|**Multi-license:** isc *OR* mit
-**[number-is-nan (1.0.1)](#number-is-nan)**|mit
-**[is-finite (1.0.2)](#is-finite)**|mit
-**[map-obj (1.0.1)](#map-obj)**|mit
+**[map-obj (2.0.0)](#map-obj)**|mit
 **[object-assign (4.1.1)](#object-assign)**|mit
 **[fs.realpath (1.0.0)](#fs.realpath)**|**Multi-license:** isc *OR* mit
 **[caseless (0.11.0)](#caseless)**|**Multi-license:** apache2 *OR* bsd3
+**[mkdirp (0.5.1)](#mkdirp)**|mit
 **[wrappy (1.0.2)](#wrappy)**|**Multi-license:** isc *OR* mit, **Multi-license:** isc *OR* mit, **Multi-license:** isc *OR* mit
-**[is-utf8 (0.2.1)](#is-utf8)**|mit
 **[graceful-readlink (1.0.1)](#graceful-readlink)**|mit
 **[spdx-license-ids (1.2.2)](#spdx-license-ids)**|cc0-1.0
 **[decamelize (1.2.0)](#decamelize)**|mit
 **[pinkie-promise (2.0.1)](#pinkie-promise)**|mit
-**[read-pkg (1.1.0)](#read-pkg)**|mit
+**[moment (2.18.1)](#moment)**|mit
 **[klaw (1.3.1)](#klaw)**|mit
 **[is-arrayish (0.2.1)](#is-arrayish)**|mit
 **[concat-stream (1.6.0)](#concat-stream)**|mit
-**[path-type (1.1.0)](#path-type)**|mit
 **[repeat-string (1.6.1)](#repeat-string)**|mit
-**[indent-string (2.1.0)](#indent-string)**|mit
 **[graceful-fs (4.1.11)](#graceful-fs)**|**Multi-license:** isc *OR* mit
-**[isobject (2.1.0)](#isobject)**|mit
-**[camelcase-keys (2.1.0)](#camelcase-keys)**|mit
+**[isobject (3.0.1)](#isobject)**|mit
 **[spdx-expression-parse (1.0.4)](#spdx-expression-parse)**|mit
+**[rimraf (2.4.5)](#rimraf)**|isc
 **[is-buffer (1.1.5)](#is-buffer)**|mit
+**[mv (2.1.1)](#mv)**|mit
 **[array-find-index (1.0.2)](#array-find-index)**|mit
 **[jsonfile (4.0.0)](#jsonfile)**|mit
 **[kind-of (4.0.0)](#kind-of)**|mit
 **[argparse (1.0.9)](#argparse)**|mit
-**[load-json-file (1.1.0)](#load-json-file)**|mit
 **[colors (0.6.2)](#colors)**|
 **[signal-exit (3.0.2)](#signal-exit)**|isc
 **[builtin-modules (1.1.1)](#builtin-modules)**|mit
@@ -338,53 +369,55 @@ Library|Licenses
 **[error-ex (1.3.1)](#error-ex)**|mit
 **[underscore (1.7.0)](#underscore)**|https://raw.github.com/jashkenas/underscore/master/LICENSE
 **[is-builtin-module (1.0.0)](#is-builtin-module)**|mit
-**[read-pkg-up (1.0.1)](#read-pkg-up)**|mit
 **[array-union (1.0.2)](#array-union)**|mit
 **[array-uniq (1.0.3)](#array-uniq)**|mit
 **[semver (5.3.0)](#semver)**|**Multi-license:** isc *OR* mit
-**[parse-json (2.2.0)](#parse-json)**|mit
+**[arrify (1.0.1)](#arrify)**|mit
+**[is-plain-obj (1.1.0)](#is-plain-obj)**|mit
 **[repeat-element (1.1.2)](#repeat-element)**|https://github.com/jonschlinkert/repeat-element/blob/master/LICENSE
 **[currently-unhandled (0.4.1)](#currently-unhandled)**|mit
-**[camelcase (2.1.1)](#camelcase)**|mit
-**[pify (2.3.0)](#pify)**|mit
-**[strip-bom (2.0.0)](#strip-bom)**|mit
+**[pify (3.0.0)](#pify)**|mit
 **[is-number (3.0.0)](#is-number)**|mit
-**[trim-newlines (1.0.0)](#trim-newlines)**|mit
-**[redent (1.0.0)](#redent)**|mit
 **[extend-shallow (2.0.1)](#extend-shallow)**|mit
 **[expand-range (1.8.2)](#expand-range)**|mit
 **[loud-rejection (1.6.0)](#loud-rejection)**|mit
 **[is-extendable (0.1.1)](#is-extendable)**|mit
 **[fill-range (2.2.3)](#fill-range)**|mit
-**[strip-indent (1.0.1)](#strip-indent)**|mit
-**[repeating (2.0.1)](#repeating)**|mit
-**[path-exists (3.0.0)](#path-exists)**|mit
-**[find-up (2.1.0)](#find-up)**|mit
 **[mdurl (1.0.1)](#mdurl)**|mit
 **[remarkable (1.7.1)](#remarkable)**|mit
 **[underscore.string (2.4.0)](#underscore.string)**|undefined
 **[universalify (0.1.1)](#universalify)**|mit
 **[markdown-link (0.1.1)](#markdown-link)**|https://github.com/jonschlinkert/markdown-link/blob/master/LICENSE
-**[deepmerge (1.5.1)](#deepmerge)**|mit
+**[strip-bom (3.0.0)](#strip-bom)**|mit
 **[entities (1.1.1)](#entities)**|**Multi-license:** bsd3 *OR* freebsd
+**[strip-indent (2.0.0)](#strip-indent)**|mit
 **[is-local-path (0.1.6)](#is-local-path)**|mit
 **[gray-matter (2.1.1)](#gray-matter)**|mit
 **[lazy-cache (2.0.2)](#lazy-cache)**|mit
+**[deepmerge (1.5.2)](#deepmerge)**|mit
+**[load-json-file (4.0.0)](#load-json-file)**|mit
+**[json-parse-better-errors (1.0.1)](#json-parse-better-errors)**|mit
 **[set-getter (0.1.0)](#set-getter)**|mit
 **[minimatch (3.0.4)](#minimatch)**|**Multi-license:** isc *OR* mit
 **[js-yaml (3.10.0)](#js-yaml)**|mit
 **[http-basic (2.5.1)](#http-basic)**|mit
+**[safe-json-stringify (1.0.4)](#safe-json-stringify)**|mit
+**[camelcase (4.1.0)](#camelcase)**|mit
+**[indent-string (3.1.0)](#indent-string)**|mit
 **[hosted-git-info (2.5.0)](#hosted-git-info)**|**Multi-license:** isc *OR* mit
 **[ansi-wrap (0.1.0)](#ansi-wrap)**|**Multi-license:** mit *OR* https://github.com/jonschlinkert/ansi-wrap/blob/master/LICENSE
 **[markdown-it (7.0.1)](#markdown-it)**|mit
 **[randomatic (1.1.7)](#randomatic)**|mit
-**[glob (7.1.2)](#glob)**|**Multi-license:** isc *OR* mit
+**[path-exists (3.0.0)](#path-exists)**|mit
 **[locate-path (2.0.0)](#locate-path)**|mit
 **[p-locate (2.0.0)](#p-locate)**|mit
 **[sprintf-js (1.0.3)](#sprintf-js)**|bsd3
 **[http-response-object (1.1.0)](#http-response-object)**|mit
 **[list-item (1.1.1)](#list-item)**|mit
 **[linkify-it (2.0.3)](#linkify-it)**|mit
+**[read-pkg-up (3.0.0)](#read-pkg-up)**|mit
+**[nan (2.7.0)](#nan)**|mit
+**[camelcase-keys (4.2.0)](#camelcase-keys)**|mit
 **[globby (6.1.0)](#globby)**|mit
 **[to-object-path (0.3.0)](#to-object-path)**|mit
 **[ansi-red (0.1.1)](#ansi-red)**|mit
@@ -394,21 +427,31 @@ Library|Licenses
 **[p-limit (1.1.0)](#p-limit)**|mit
 **[autolinker (0.15.3)](#autolinker)**|mit
 **[string_decoder (1.0.3)](#string_decoder)**|mit
+**[minimist-options (3.0.2)](#minimist-options)**|mit
 **[safe-buffer (5.1.1)](#safe-buffer)**|mit
+**[find-up (2.1.0)](#find-up)**|mit
 **[normalize-package-data (2.4.0)](#normalize-package-data)**|bsd3
-**[object.pick (1.2.0)](#object.pick)**|mit
 **[uc.micro (1.0.3)](#uc.micro)**|wtfpl
 **[strip-color (0.1.0)](#strip-color)**|mit
+**[markdown-toc (1.2.0)](#markdown-toc)**|mit
+**[decamelize-keys (1.1.0)](#decamelize-keys)**|mit
 **[sync-request (3.0.1)](#sync-request)**|mit
 **[dox (0.9.0)](#dox)**|mit
+**[path-type (3.0.0)](#path-type)**|mit
+**[read-pkg (3.0.0)](#read-pkg)**|mit
 **[findup (0.1.5)](#findup)**|mit
 **[balanced-match (1.0.0)](#balanced-match)**|mit
-**[markdown-toc (1.1.0)](#markdown-toc)**|mit
+**[dtrace-provider (0.8.5)](#dtrace-provider)**|**Multi-license:** freebsd *OR* bsd3
+**[redent (2.0.0)](#redent)**|mit
+**[quick-lru (1.1.0)](#quick-lru)**|mit
 **[mixin-deep (1.2.0)](#mixin-deep)**|mit
+**[parse-json (4.0.0)](#parse-json)**|mit
+**[object.pick (1.3.0)](#object.pick)**|mit
 **[brace-expansion (1.1.8)](#brace-expansion)**|mit
 **[then-request (2.2.0)](#then-request)**|mit
 **[esprima (4.0.0)](#esprima)**|bsd3
 **[coffee-script (1.12.7)](#coffee-script)**|mit
+**[trim-newlines (2.0.0)](#trim-newlines)**|mit
 **[readable-stream (2.3.3)](#readable-stream)**|mit
 **[toml (2.3.3)](#toml)**|mit
 
@@ -558,6 +601,40 @@ Library|Licenses
 
 
 
+#### **glob (7.1.2)**
+
+* Description  
+    a little globber
+
+
+* Licenses
+    * **Multi-license:** isc *OR* mit
+
+
+* Authors
+    * [i@izs.me](author)
+
+
+* License tags
+    * Permissive,OSI-Approved,Open Source, Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+    * isc
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/isaacs/node-glob#readme
+
+
+* Notes
+
+
+
 #### **promise (7.1.1)**
 
 * Description  
@@ -586,6 +663,40 @@ Library|Licenses
 
 * Project Url  
     https://github.com/then/promise
+
+
+* Notes
+
+
+
+#### **ncp (2.0.0)**
+
+* Description  
+    Asynchronous recursive file copy utility.
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [charlie@charlieistheman.com](author)
+    * [me@mmalecki.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/AvianFlu/ncp
 
 
 * Notes
@@ -956,39 +1067,6 @@ Library|Licenses
 
 
 
-#### **get-stdin (4.0.1)**
-
-* Description  
-    Get stdin as a string or buffer
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/sindresorhus/get-stdin
-
-
-* Notes
-
-
-
 #### **inflight (1.0.6)**
 
 * Description  
@@ -1024,73 +1102,7 @@ Library|Licenses
 
 
 
-#### **number-is-nan (1.0.1)**
-
-* Description  
-    ES6 Number.isNaN() ponyfill
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/sindresorhus/number-is-nan#readme
-
-
-* Notes
-
-
-
-#### **is-finite (1.0.2)**
-
-* Description  
-    ES6 Number.isFinite() ponyfill
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/sindresorhus/is-finite#readme
-
-
-* Notes
-
-
-
-#### **map-obj (1.0.1)**
+#### **map-obj (2.0.0)**
 
 * Description  
     Map object keys and values into a new object
@@ -1227,6 +1239,39 @@ Library|Licenses
 
 
 
+#### **mkdirp (0.5.1)**
+
+* Description  
+    Recursively mkdir, like `mkdir -p`
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [mail@substack.net](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/substack/node-mkdirp#readme
+
+
+* Notes
+
+
+
 #### **wrappy (1.0.2)**
 
 * Description  
@@ -1259,40 +1304,6 @@ Library|Licenses
 
 
 * Notes
-
-
-
-#### **is-utf8 (0.2.1)**
-
-* Description  
-    Detect if a buffer is utf8 encoded.
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [whyer1@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/wayfind/is-utf8#readme
-
-
-* Notes
-    * Found license in currently used version.
 
 
 
@@ -1429,10 +1440,10 @@ Library|Licenses
 
 
 
-#### **read-pkg (1.1.0)**
+#### **moment (2.18.1)**
 
 * Description  
-    Read a package.json file
+    Parse, validate, manipulate, and display dates
 
 
 * Licenses
@@ -1440,7 +1451,11 @@ Library|Licenses
 
 
 * Authors
-    * [sindresorhus@gmail.com](author)
+    * [marwahaha@berkeley.edu](author)
+    * [maggiepint@gmail.com](author)
+    * [mj1856@hotmail.com](author)
+    * [washwithcare@gmail.com](author)
+    * [iskren.chernev@gmail.com](author)
 
 
 * License tags
@@ -1448,6 +1463,7 @@ Library|Licenses
 
 
 * Other Licenses
+    * See-URL
 
 
 * Source
@@ -1455,7 +1471,7 @@ Library|Licenses
 
 
 * Project Url  
-    https://github.com/sindresorhus/read-pkg
+    http://momentjs.com
 
 
 * Notes
@@ -1563,39 +1579,6 @@ Library|Licenses
 
 
 
-#### **path-type (1.1.0)**
-
-* Description  
-    Check if a path is a file, directory, or symlink
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://www.npmjs.com/package/path-type
-
-
-* Notes
-
-
-
 #### **repeat-string (1.6.1)**
 
 * Description  
@@ -1623,39 +1606,6 @@ Library|Licenses
 
 * Project Url  
     https://github.com/jonschlinkert/repeat-string
-
-
-* Notes
-
-
-
-#### **indent-string (2.1.0)**
-
-* Description  
-    Indent each line in a string
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/sindresorhus/indent-string#readme
 
 
 * Notes
@@ -1695,7 +1645,7 @@ Library|Licenses
 
 
 
-#### **isobject (2.1.0)**
+#### **isobject (3.0.1)**
 
 * Description  
     Returns true if the value is an object and not an array or null.
@@ -1723,39 +1673,6 @@ Library|Licenses
 
 * Project Url  
     https://github.com/jonschlinkert/isobject
-
-
-* Notes
-
-
-
-#### **camelcase-keys (2.1.0)**
-
-* Description  
-    Convert object keys to camelCase
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/sindresorhus/camelcase-keys
 
 
 * Notes
@@ -1797,6 +1714,40 @@ Library|Licenses
 
 
 
+#### **rimraf (2.4.5)**
+
+* Description  
+    A deep deletion module for node (like `rm -rf`)
+
+
+* Licenses
+    * isc
+
+
+* Authors
+    * [i@izs.me](author)
+
+
+* License tags
+    * Permissive,OSI-Approved,Open Source
+
+
+* Other Licenses
+    * mit
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/isaacs/rimraf#readme
+
+
+* Notes
+
+
+
 #### **is-buffer (1.1.5)**
 
 * Description  
@@ -1824,6 +1775,39 @@ Library|Licenses
 
 * Project Url  
     http://feross.org
+
+
+* Notes
+
+
+
+#### **mv (2.1.1)**
+
+* Description  
+    fs.rename but works across devices. same as the unix utility 'mv'
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [superjoe30@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/andrewrk/node-mv
 
 
 * Notes
@@ -1958,39 +1942,6 @@ Library|Licenses
 
 * Project Url  
     https://github.com/nodeca/argparse
-
-
-* Notes
-
-
-
-#### **load-json-file (1.1.0)**
-
-* Description  
-    Read and parse a JSON file
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/sindresorhus/load-json-file#readme
 
 
 * Notes
@@ -2232,39 +2183,6 @@ Library|Licenses
 
 
 
-#### **read-pkg-up (1.0.1)**
-
-* Description  
-    Read the closest package.json file
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/sindresorhus/read-pkg-up
-
-
-* Notes
-
-
-
 #### **array-union (1.0.2)**
 
 * Description  
@@ -2365,10 +2283,10 @@ Library|Licenses
 
 
 
-#### **parse-json (2.2.0)**
+#### **arrify (1.0.1)**
 
 * Description  
-    Parse JSON with more helpful errors
+    Convert a value to an array
 
 
 * Licenses
@@ -2391,7 +2309,40 @@ Library|Licenses
 
 
 * Project Url  
-    https://github.com/sindresorhus/parse-json
+    https://github.com/sindresorhus/arrify#readme
+
+
+* Notes
+
+
+
+#### **is-plain-obj (1.1.0)**
+
+* Description  
+    Check if a value is a plain object
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://www.npmjs.com/package/is-plain-obj
 
 
 * Notes
@@ -2465,40 +2416,7 @@ Library|Licenses
 
 
 
-#### **camelcase (2.1.1)**
-
-* Description  
-    Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/sindresorhus/camelcase#readme
-
-
-* Notes
-
-
-
-#### **pify (2.3.0)**
+#### **pify (3.0.0)**
 
 * Description  
     Promisify a callback-style function
@@ -2525,39 +2443,6 @@ Library|Licenses
 
 * Project Url  
     https://github.com/sindresorhus/pify
-
-
-* Notes
-
-
-
-#### **strip-bom (2.0.0)**
-
-* Description  
-    Strip UTF-8 byte order mark (BOM) from a string/buffer
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/sindresorhus/strip-bom
 
 
 * Notes
@@ -2592,72 +2477,6 @@ Library|Licenses
 
 * Project Url  
     https://github.com/jonschlinkert/is-number
-
-
-* Notes
-
-
-
-#### **trim-newlines (1.0.0)**
-
-* Description  
-    Trim newlines from the start and/or end of a string
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://www.npmjs.com/package/trim-newlines
-
-
-* Notes
-
-
-
-#### **redent (1.0.0)**
-
-* Description  
-    Strip redundant indentation and indent the string
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://www.npmjs.com/package/redent
 
 
 * Notes
@@ -2830,138 +2649,6 @@ Library|Licenses
 
 * Project Url  
     https://github.com/jonschlinkert/fill-range
-
-
-* Notes
-
-
-
-#### **strip-indent (1.0.1)**
-
-* Description  
-    Strip leading whitespace from each line in a string
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://www.npmjs.com/package/strip-indent
-
-
-* Notes
-
-
-
-#### **repeating (2.0.1)**
-
-* Description  
-    Repeat a string - fast
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/sindresorhus/repeating#readme
-
-
-* Notes
-
-
-
-#### **path-exists (3.0.0)**
-
-* Description  
-    Check if a path exists
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/sindresorhus/path-exists
-
-
-* Notes
-
-
-
-#### **find-up (2.1.0)**
-
-* Description  
-    Find a file by walking up parent directories
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [sindresorhus@gmail.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/sindresorhus/find-up
 
 
 * Notes
@@ -3143,10 +2830,10 @@ Library|Licenses
 
 
 
-#### **deepmerge (1.5.1)**
+#### **strip-bom (3.0.0)**
 
 * Description  
-    A library for deep (recursive) merging of Javascript objects
+    Strip UTF-8 byte order mark (BOM) from a string/buffer
 
 
 * Licenses
@@ -3154,8 +2841,7 @@ Library|Licenses
 
 
 * Authors
-    * [me@JoshDuff.com](author)
-    * [mathews.kyle@gmail.com](author)
+    * [sindresorhus@gmail.com](author)
 
 
 * License tags
@@ -3170,7 +2856,7 @@ Library|Licenses
 
 
 * Project Url  
-    https://github.com/nrf110/deepmerge
+    https://github.com/sindresorhus/strip-bom
 
 
 * Notes
@@ -3205,6 +2891,39 @@ Library|Licenses
 
 * Project Url  
     https://github.com/fb55/node-entities
+
+
+* Notes
+
+
+
+#### **strip-indent (2.0.0)**
+
+* Description  
+    Strip leading whitespace from each line in a string
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://www.npmjs.com/package/strip-indent
 
 
 * Notes
@@ -3306,6 +3025,106 @@ Library|Licenses
 
 * Project Url  
     https://www.npmjs.com/package/lazy-cache
+
+
+* Notes
+
+
+
+#### **deepmerge (1.5.2)**
+
+* Description  
+    A library for deep (recursive) merging of Javascript objects
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [me@JoshDuff.com](author)
+    * [mathews.kyle@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/nrf110/deepmerge
+
+
+* Notes
+
+
+
+#### **load-json-file (4.0.0)**
+
+* Description  
+    Read and parse a JSON file
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/sindresorhus/load-json-file#readme
+
+
+* Notes
+
+
+
+#### **json-parse-better-errors (1.0.1)**
+
+* Description  
+    JSON.parse with context information on error
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [kat@sykosomatic.org](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://www.npmjs.com/package/json-parse-better-errors
 
 
 * Notes
@@ -3438,6 +3257,111 @@ Library|Licenses
 
 * Project Url  
     https://www.npmjs.com/package/http-basic
+
+
+* Notes
+
+
+
+#### **safe-json-stringify (1.0.4)**
+
+* Description  
+    Prevent defined property getters from throwing errors
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [martin@gausby.dk](author)
+    * [allan@878.dk](author)
+    * [a.bubenshchykov@gmail.com](author)
+    * [eagleeyes91@gmail.com](author)
+    * [mirza.kapetanovic@gmail.com](author)
+    * [evgen.filatov@gmail.com](author)
+    * [dan@steenbjerg.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/e-conomic/safe-json-stringify
+
+
+* Notes
+
+
+
+#### **camelcase (4.1.0)**
+
+* Description  
+    Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/sindresorhus/camelcase#readme
+
+
+* Notes
+
+
+
+#### **indent-string (3.1.0)**
+
+* Description  
+    Indent each line in a string
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/sindresorhus/indent-string#readme
 
 
 * Notes
@@ -3580,26 +3504,25 @@ Library|Licenses
 
 
 
-#### **glob (7.1.2)**
+#### **path-exists (3.0.0)**
 
 * Description  
-    a little globber
+    Check if a path exists
 
 
 * Licenses
-    * **Multi-license:** isc *OR* mit
+    * mit
 
 
 * Authors
-    * [i@izs.me](author)
+    * [sindresorhus@gmail.com](author)
 
 
 * License tags
-    * Permissive,OSI-Approved,Open Source, Open Source,OSI-Approved,Permissive
+    * Open Source,OSI-Approved,Permissive
 
 
 * Other Licenses
-    * isc
 
 
 * Source
@@ -3607,7 +3530,7 @@ Library|Licenses
 
 
 * Project Url  
-    https://github.com/isaacs/node-glob#readme
+    https://github.com/sindresorhus/path-exists
 
 
 * Notes
@@ -3807,6 +3730,107 @@ Library|Licenses
 
 * Project Url  
     https://www.npmjs.com/package/linkify-it
+
+
+* Notes
+
+
+
+#### **read-pkg-up (3.0.0)**
+
+* Description  
+    Read the closest package.json file
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/sindresorhus/read-pkg-up
+
+
+* Notes
+
+
+
+#### **nan (2.7.0)**
+
+* Description  
+    Native Abstractions for Node.js: C++ header for Node 0.8 -> 4 compatibility
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [rod@vagg.org](author)
+    * [bbyholm@abo.fi](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+    * See-doc(OTHER)
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/nodejs/nan#readme
+
+
+* Notes
+
+
+
+#### **camelcase-keys (4.2.0)**
+
+* Description  
+    Convert object keys to camelCase
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/sindresorhus/camelcase-keys
 
 
 * Notes
@@ -4119,6 +4143,39 @@ Library|Licenses
 
 
 
+#### **minimist-options (3.0.2)**
+
+* Description  
+    Pretty options for minimist
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [vdemedes@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://www.npmjs.com/package/minimist-options
+
+
+* Notes
+
+
+
 #### **safe-buffer (5.1.1)**
 
 * Description  
@@ -4147,6 +4204,39 @@ Library|Licenses
 
 * Project Url  
     https://www.npmjs.com/package/safe-buffer
+
+
+* Notes
+
+
+
+#### **find-up (2.1.0)**
+
+* Description  
+    Find a file by walking up parent directories
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/sindresorhus/find-up
 
 
 * Notes
@@ -4186,40 +4276,6 @@ Library|Licenses
 
 * Project Url  
     https://github.com/npm/normalize-package-data#readme
-
-
-* Notes
-
-
-
-#### **object.pick (1.2.0)**
-
-* Description  
-    Returns a filtered copy of an object with only the specified keys, like `pick` from lo-dash / underscore.
-
-
-* Licenses
-    * mit
-
-
-* Authors
-    * [blaine.bublitz@gmail.com](author)
-    * [github@sellside.com](author)
-
-
-* License tags
-    * Open Source,OSI-Approved,Permissive
-
-
-* Other Licenses
-
-
-* Source
-	* NPM (npmjs.com)
-
-
-* Project Url  
-    https://github.com/jonschlinkert/object.pick
 
 
 * Notes
@@ -4286,6 +4342,74 @@ Library|Licenses
 
 * Project Url  
     https://www.npmjs.com/package/strip-color
+
+
+* Notes
+
+
+
+#### **markdown-toc (1.2.0)**
+
+* Description  
+    Generate a markdown TOC (table of contents) with Remarkable.
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [brian.woodward@gmail.com](author)
+    * [github@sellside.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://www.npmjs.com/package/markdown-toc
+
+
+* Notes
+
+
+
+#### **decamelize-keys (1.1.0)**
+
+* Description  
+    Convert object keys from camelCase to lowercase with a custom separator
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [disobolev@icloud.com](author)
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://www.npmjs.com/package/decamelize-keys
 
 
 * Notes
@@ -4360,6 +4484,72 @@ Library|Licenses
 
 
 
+#### **path-type (3.0.0)**
+
+* Description  
+    Check if a path is a file, directory, or symlink
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://www.npmjs.com/package/path-type
+
+
+* Notes
+
+
+
+#### **read-pkg (3.0.0)**
+
+* Description  
+    Read a package.json file
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/sindresorhus/read-pkg
+
+
+* Notes
+
+
+
 #### **findup (0.1.5)**
 
 * Description  
@@ -4427,10 +4617,47 @@ Library|Licenses
 
 
 
-#### **markdown-toc (1.1.0)**
+#### **dtrace-provider (0.8.5)**
 
 * Description  
-    Generate a markdown TOC (table of contents) with Remarkable.
+    Native DTrace providers for node.js applications
+
+
+* Licenses
+    * **Multi-license:** freebsd *OR* bsd3
+
+
+* Authors
+    * [chris@nodnol.org](author)
+    * [dap@cs.brown.edu](author)
+    * [cody.mello@joyent.com](author)
+    * [tjfontaine@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive, Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+    * freebsd
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/chrisa/node-dtrace-provider#readme
+
+
+* Notes
+
+
+
+#### **redent (2.0.0)**
+
+* Description  
+    Strip redundant indentation and indent the string
 
 
 * Licenses
@@ -4438,8 +4665,7 @@ Library|Licenses
 
 
 * Authors
-    * [brian.woodward@gmail.com](author)
-    * [github@sellside.com](author)
+    * [sindresorhus@gmail.com](author)
 
 
 * License tags
@@ -4454,7 +4680,40 @@ Library|Licenses
 
 
 * Project Url  
-    https://www.npmjs.com/package/markdown-toc
+    https://www.npmjs.com/package/redent
+
+
+* Notes
+
+
+
+#### **quick-lru (1.1.0)**
+
+* Description  
+    Simple "Least Recently Used" (LRU) cache
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://www.npmjs.com/package/quick-lru
 
 
 * Notes
@@ -4488,6 +4747,73 @@ Library|Licenses
 
 * Project Url  
     https://www.npmjs.com/package/mixin-deep
+
+
+* Notes
+
+
+
+#### **parse-json (4.0.0)**
+
+* Description  
+    Parse JSON with more helpful errors
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/sindresorhus/parse-json
+
+
+* Notes
+
+
+
+#### **object.pick (1.3.0)**
+
+* Description  
+    Returns a filtered copy of an object with only the specified keys, like `pick` from lo-dash / underscore.
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [blaine.bublitz@gmail.com](author)
+    * [github@sellside.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://github.com/jonschlinkert/object.pick
 
 
 * Notes
@@ -4625,6 +4951,39 @@ Library|Licenses
 
 * Project Url  
     http://coffeescript.org
+
+
+* Notes
+
+
+
+#### **trim-newlines (2.0.0)**
+
+* Description  
+    Trim newlines from the start and/or end of a string
+
+
+* Licenses
+    * mit
+
+
+* Authors
+    * [sindresorhus@gmail.com](author)
+
+
+* License tags
+    * Open Source,OSI-Approved,Permissive
+
+
+* Other Licenses
+
+
+* Source
+	* NPM (npmjs.com)
+
+
+* Project Url  
+    https://www.npmjs.com/package/trim-newlines
 
 
 * Notes
@@ -4849,6 +5208,6 @@ and you just</p></p><p>DO WHAT THE FUCK YOU WANT TO.</p>
 
 [FOSSA]: # (Do not touch the comments below)
 
-[FOSSA]: # (==depsig=b24b5bba675364dad372d4886db91623c1fbefa5af6f4a5df99623e40a89a4f7==)
+[FOSSA]: # (==depsig=5f2b15ae1816b176df29199f19b2455451d2f60aaecec3b904b05ca8f4042e96==)
 
 

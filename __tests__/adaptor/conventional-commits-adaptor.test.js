@@ -2,9 +2,7 @@ const ConventionalCommitsAdaptor =
   require('../../lib/adaptor/conventional-commits-adaptor.js')
 
 describe('commonality/common-vocabulary', () => {
-
   let adaptor = null
-  const SPACES = 2
 
   beforeEach(() => {
     adaptor = new ConventionalCommitsAdaptor()
@@ -20,8 +18,8 @@ describe('commonality/common-vocabulary', () => {
   })
 
   it('adapts the conventional-commits-types definitions to its lexicon', () => {
+    const EXPECTED_LENGTH = 11
     const entries = adaptor.adapt()
-    expect(entries.length).toBe(11)
-    // console.log(JSON.stringify(entries, null, SPACES))
+    expect(entries.length).toBe(EXPECTED_LENGTH)
   })
 })

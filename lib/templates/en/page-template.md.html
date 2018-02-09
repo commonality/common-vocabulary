@@ -1,0 +1,54 @@
+# Common Vocabulary
+
+> Generated on <%- new Date().toDateString() %>.
+
+## Index of terms
+
+<% _.forEach(entries, (entry) => { %> 1. [**<%= entry.dt %>**](#<%= entry.dt %>) <sup><%- entry.category %></sup>
+<% }) %>
+
+## Definitions
+
+<dl>
+<% _.forEach(entries, (entry) => { %>
+<!-- definition -->
+<dt><a name="<%= entry.dt %>"></a><%= entry.dt %></dt>
+<dd><%= entry.dd %>
+  <hr>
+  <details>
+  <summary><img src="https://raw.githubusercontent.com/commonality/common-vocabulary/master/docs/img/icons8/icon-info-30.png" alt="More info"> Toggle for additional engineering usages of <samp><%- entry.dt %></samp>...</summary>
+  <ul><p>
+  <!-- categories -->
+  <% if (!_.isEmpty(entry.category)) { %>
+  <p><em>Category</em>
+  <blockquote><ul>
+    <li><%= entry.category %></li>
+  </blockquote>
+  <% } %>
+  <!-- commit log headers -->
+  <% if (!_.isEmpty(entry.conventionalCommitTypes)) { %>
+  <p><em>Commit log headers</em>
+  <blockquote>
+  <ul>
+  <% _.forEach(entry.conventionalCommitTypes, (change) => { %>
+  <li><em>Scope:</em> <code><%- entry.dt %></code>
+  <p><li><em>Type:</em> <code><%- change %></code>
+  <p>Sample commit message header:
+  <pre class="ini"><code><%- change %>(<%- entry.dt %>): lorem ipsum dolor sit amet</code></pre>
+  <% }) %>
+  </ul>
+  </blockquote>
+  </li>
+  <% } %>
+  <!-- labels -->
+  <% if (!_.isEmpty(entry.conventionalCommitTypes)) { %>
+  <p><em>Labels</em>
+  <blockquote><% _.forEach(entry.conventionalCommitTypes, (change) => { %>
+  <p><kbd>type: <%- change %></kbd>
+  <% }) %></blockquote>
+</li><% } %>
+</details>
+<hr>
+</dd>
+</ul><% }) %>
+</dl>
