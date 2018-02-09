@@ -1,1 +1,0 @@
-  <kbd>type: <%- dt %></kbd>
