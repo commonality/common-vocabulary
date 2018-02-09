@@ -1257,7 +1257,7 @@
 [conventional-commits-url]: https://conventionalcommits.org
 [coolors-palette-url]: https://coolors.co/cfdbd5-e8eddf-f5cb5c-242423-333533
 [eslint-logo-image]: ./docs/img/logo-eslint.png
-[eslint-rules-table-url]: ./ESLINT_RULES.md
+[eslint-rules-table-url]: .github/eslint-rules-table.md
 [eslint-url]: https://eslint.org
 [force-with-lease-url]: https://developer.atlassian.com/blog/2015/04/force-with-lease/
 [fossa-image-large]: https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Forganization%2Frepo-name.svg?type=large

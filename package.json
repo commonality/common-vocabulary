@@ -28,13 +28,11 @@
     ],
     "scope": "\\S+.*"
   },
-  "contributors": [
-    {
-      "name": "Greg Swindle",
-      "email": "greg@swindle.net",
-      "url": "https://github.com/gregswindle"
-    }
-  ],
+  "contributors": [{
+    "name": "Greg Swindle",
+    "email": "greg@swindle.net",
+    "url": "https://github.com/gregswindle"
+  }],
   "dependencies": {
     "bunyan": "1.8.12",
     "conventional-commit-types": "2.2.0",
@@ -98,18 +96,6 @@
   "license": "MIT",
   "main": "lib/index.js",
   "maintainers": [],
-  "release": {
-    "verifyConditions": [
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      "@semantic-release/git"
-    ],
-    "publish": [
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      "@semantic-release/git"
-    ]
-  },
   "repository": "https://github.com/commonality/common-vocabulary.git",
   "scripts": {
     "docs": "npm run docs:markdown",
