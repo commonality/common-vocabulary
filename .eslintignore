@@ -4,10 +4,5 @@
 */jsdoc/**
 */reports/**
 */templates/**
-*/tests/bench/**
-*/tests/fixtures/**
-*/tests/performance/**
 */tmp/**
 *.bundle.js
-*.spec.js
-*.test.js

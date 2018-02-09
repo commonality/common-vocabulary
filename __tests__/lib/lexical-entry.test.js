@@ -11,7 +11,8 @@ describe('commonality/common-vocabulary.lexicon-entry', () => {
         'conventionalCommitTypes': [],
         'dd': null,
         'dt': '',
-        meta: {},
+        'meta': {
+        },
         'title': ''
       })
     })
@@ -20,13 +21,13 @@ describe('commonality/common-vocabulary.lexicon-entry', () => {
   describe('when given valid params,', () => {
     it('creates a lexical entry', () => {
       const entry = new LexicalEntry({
-        category: 'foo-bar',
-        conventionalCommitTypes: [
+        'category': 'foo-bar',
+        'conventionalCommitTypes': [
           'build',
           'ci'
         ],
-        dd: 'Something wicked this way SNAFUed',
-        dt: 'foo-bar'
+        'dd': 'Something wicked this way SNAFUed',
+        'dt': 'foo-bar'
       })
 
       expect(entry).toEqual({
@@ -45,7 +46,7 @@ describe('commonality/common-vocabulary.lexicon-entry', () => {
   describe('when its static factory method "create" is invoked', () => {
     it('creates a lexical entry', () => {
       const entry = LexicalEntry.create('term', 'definition', {
-        category: 'Test Entry'
+        'category': 'Test Entry'
       })
 
       expect(entry).toEqual({
@@ -53,7 +54,8 @@ describe('commonality/common-vocabulary.lexicon-entry', () => {
         'conventionalCommitTypes': [],
         'dd': 'definition',
         'dt': 'term',
-        'meta': {},
+        'meta': {
+        },
         'title': 'Term'
       })
     })

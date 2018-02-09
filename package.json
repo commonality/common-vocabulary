@@ -1,7 +1,7 @@
 {
   "name": "common-vocabulary",
   "description": "Facilitate communication and avoid confusion with canonical terms: share a common vocabulary.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": {
     "name": "commonality",
     "email": "greg@swindle.net",
@@ -38,6 +38,7 @@
   "dependencies": {
     "bunyan": "1.8.12",
     "conventional-commit-types": "2.2.0",
+    "ejs": "2.5.7",
     "fs-extra": "5.0.0",
     "lodash": "4.17.5",
     "markdown-magic": "0.1.20",
@@ -46,6 +47,9 @@
     "object-hash": "1.2.0"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "1.0.0",
+    "@semantic-release/git": "3.0.0",
+    "@semantic-release/npm": "3.0.1",
     "commitplease": "3.2.0",
     "coveralls": "3.0.0",
     "eslint": "4.17.0",
@@ -65,8 +69,8 @@
     "eslint-plugin-unicorn": "3.0.1",
     "eslint-plugin-xss": "0.1.9",
     "fixpack": "2.3.1",
-    "jest": "22.2.1",
-    "jest-cli": "22.2.1",
+    "jest": "^22.1.4",
+    "jest-cli": "^22.1.4",
     "lec": "^1.0.1",
     "markdown-magic-dependency-table": "1.3.2",
     "markdown-magic-package-scripts": "1.2.1",
@@ -86,16 +90,31 @@
     "testEnvironment": "node"
   },
   "keywords": [
-    ""
+    "collaboration",
+    "communication",
+    "controlled vocabulary",
+    "standards"
   ],
   "license": "MIT",
   "main": "lib/index.js",
   "maintainers": [],
+  "release": {
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "publish": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ]
+  },
   "repository": "https://github.com/commonality/common-vocabulary.git",
   "scripts": {
     "docs": "npm run docs:markdown",
-    "docs:toc": "md-magic --path '**/*.md' --ignore 'node_modules'",
     "docs:markdown": "md-magic --path '{.github/*.md,**/*.md}' '**/*.md' --ignore 'node_modules' --config ./markdown.config.js",
+    "docs:toc": "md-magic --path '**/*.md' --ignore 'node_modules'",
     "lint": "npm run lint:js",
     "lint:js": "eslint . --ext .json --ext .js --fix",
     "lint:manifest": "fixpack",
