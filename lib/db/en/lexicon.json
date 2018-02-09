@@ -4,7 +4,9 @@
     "dd": "A complete list of available products for purchase.",
     "dfn": null,
     "dt": "catalog",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Catalog"
   },
   {
@@ -13,7 +15,9 @@
     "dd": "A point at which goods are paid for.",
     "dfn": null,
     "dt": "checkout",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Checkout"
   },
   {
@@ -22,7 +26,9 @@
     "dd": "The action or process of showing the existence or truth of something by giving proof or evidence.",
     "dfn": null,
     "dt": "demo",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Demonstration"
   },
   {
@@ -31,132 +37,162 @@
     "dd": "The process or technique of identifying the geographical location of a person or device by means of digital information processed via the Internet.",
     "dfn": null,
     "dt": "geolocation",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Geolocation"
   },
   {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "A complete list of items such as property, goods in stock, or the contents of a building.",
     "dfn": null,
     "dt": "inventory",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Inventory"
   },
   {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs"],
-    "dd": null,
+    "dd": "Digital assets other than text, copy, or words.",
     "dfn": null,
     "dt": "media",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Media"
   },
   {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs"],
-    "dd": null,
+    "dd": "A specially reduced price or terms for something on sale.",
     "dfn": null,
     "dt": "offer",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Offer"
   },
   {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "An electronic request for something to be made, supplied, or served.",
     "dfn": null,
     "dt": "order",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Order"
   },
   {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "The action or process of paying someone or something, or of being paid.",
     "dfn": null,
     "dt": "payment",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Payment"
   },
   {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "The process of determining the amount required as payment for (something offered for sale).",
     "dfn": null,
     "dt": "pricing",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Pricing"
   }, {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "The publicization of a product or venture so as to increase sales or market awareness.",
     "dfn": null,
     "dt": "promotionMessage",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Promotion Message"
   },
   {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "Classifications or rankings of someone or something based on a comparative assessment of their quality, standard, or performance.",
     "dfn": null,
     "dt": "rating",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Ratings"
   },
   {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "The action or process of creating a business account.",
     "dfn": null,
     "dt": "registration",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Registration"
   },
   {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "The retrieval of information, or the facility for this.",
     "dfn": null,
     "dt": "search",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Search"
   },
   {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "Of or relating to features that enable users to create and share content or to participate in social networking.",
     "dfn": null,
     "dt": "social",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Social"
   },
   {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "The virtual representation of a retail establishment selling items to the public.",
     "dfn": null,
     "dt": "store",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Store"
   },
   {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "A useful tool, especially through being able to perform several functions.",
     "dfn": null,
     "dt": "util",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Utilities"
   },
   {
     "category": "e-commerce",
     "conventionalCommitTypes": ["docs", "feat"],
-    "dd": null,
+    "dd": "A sequence of tasks through which a piece of work passes from initiation to completion.",
     "dfn": null,
     "dt": "workflow",
-    "meta": {},
+    "meta": {
+      "labels": ["type: feature", "type: docs"]
+    },
     "title": "Workflows"
   }
 ]

@@ -38,6 +38,7 @@
   "dependencies": {
     "bunyan": "1.8.12",
     "conventional-commit-types": "2.2.0",
+    "ejs": "2.5.7",
     "fs-extra": "5.0.0",
     "lodash": "4.17.5",
     "markdown-magic": "0.1.20",
@@ -46,6 +47,9 @@
     "object-hash": "1.2.0"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "1.0.0",
+    "@semantic-release/git": "3.0.0",
+    "@semantic-release/npm": "3.0.1",
     "commitplease": "3.2.0",
     "coveralls": "3.0.0",
     "eslint": "4.17.0",
@@ -94,6 +98,18 @@
   "license": "MIT",
   "main": "lib/index.js",
   "maintainers": [],
+  "release": {
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "publish": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ]
+  },
   "repository": "https://github.com/commonality/common-vocabulary.git",
   "scripts": {
     "docs": "npm run docs:markdown",

@@ -914,6 +914,9 @@
 <!-- AUTO-GENERATED-CONTENT:START (DEPENDENCYTABLE:dev=true) -->
 | **Dependency** | **Description** | **Version** | **License** | **Type** |
 | -------------- | --------------- | ----------- | ----------- | -------- |
+ | [@semantic-release/changelog@1.0.0](https://github.com/semantic-release/changelog#readme) | Set of semantic-release plugins for creating or updating a changelog file | 1.0.0 | MIT | dev | 
+ | [@semantic-release/git@3.0.0](https://github.com/semantic-release/git#readme) | Set of semantic-release plugins to publish to a git repository | 3.0.0 | MIT | dev | 
+ | [@semantic-release/npm@3.0.1](https://github.com/semantic-release/npm#readme) | Set of semantic-release plugins to publish to a npm registry | 3.0.1 | MIT | dev | 
  | [commitplease@3.2.0](https://github.com/jzaefferer/commitplease#readme) | Validates strings as commit messages | 3.2.0 | MIT | dev | 
  | [coveralls@3.0.0](https://github.com/nickmerwin/node-coveralls#readme) | takes json-cov output into stdin and POSTs to coveralls.io | 3.0.0 | BSD-2-Clause | dev | 
  | [eslint@4.17.0](https://eslint.org) | An AST-based pattern checker for JavaScript. | 4.17.0 | MIT | dev | 

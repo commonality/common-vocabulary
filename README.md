@@ -2,8 +2,6 @@
 
 # `common-vocabulary`
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/commonality/common-vocabulary.svg)](https://greenkeeper.io/)
-
 > Facilitate communication and avoid confusion with canonical terms: share a common vocabulary.
 
 [![License][license-badge-image]][license-url]
@@ -19,6 +17,7 @@
 [![PRs Welcome][makeapullrequest-image]][makeapullrequest-url]
 
 ## Table of contents
+
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (TOC:excludeText=Table of contents) -->
 - [Installation](#installation)
 - [Usage](#usage)
@@ -59,7 +58,7 @@ cv.toHtml()
 
 ## Semantic version and `CHANGELOG`
 
-The latest version of `common-vocabulary` is `1.0.0`. View the [`CHANGELOG`][changelog-url] for details.
+The latest version of `common-vocabulary` is `1.1.0`. View the [`CHANGELOG`][changelog-url] for details.
 
 ## Contributing
 
