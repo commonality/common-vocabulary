@@ -1,6 +1,0 @@
-  <%- if (_.gte(term.conventionalCommitTypes.length, 0)) { %><li>
-    <em>Labels</em>
-    <blockquote><% _.forEach(entry.conventionalCommitTypes, (change) => { %>
-      <p><kbd>type: <%- dt %></kbd>
-    <% }) %></blockquote>
-  </li><% } %>

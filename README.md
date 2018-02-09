@@ -110,11 +110,17 @@ Contributions in the form of GitHub pull requests are welcome. Before embarking 
 [![Greenkeeper badge](https://badges.greenkeeper.io/commonality/common-vocabulary.svg?style=flat-square)](https://greenkeeper.io/)
 [![README doc score][readme-score-img]][readme-score-url]
 
+Graphic art by [icons8](https://icons8.com/).
+
 <!-- ⛔️ 📝 NOTE: PLEASE ALPHABETIZE LINK REFERENCES. 📝 ⛔️ -->
 
 [appveyor-image]: https://img.shields.io/appveyor/ci/gregswindle/common-vocabulary.svg?style=flat-square&logo=appveyor
 [appveyor-url]: https://ci.appveyor.com/project/gregswindle/common-vocabulary
 [author-url]: https://github.com/commonality
+[bithound-dev-image]: https://img.shields.io/bithound/devDependencies/github/commonality/common-vocabulary.svg?style=flat-square
+[bithound-dev-url]: https://www.bithound.io/github/commonality/common-vocabulary/master/dependencies/npm
+[bithound-image]: https://img.shields.io/bithound/dependencies/github/commonality/common-vocabulary.svg?style=flat-square
+[bithound-url]: https://www.bithound.io/github/commonality/common-vocabulary/master/dependencies/npm
 [changelog-url]: ./CHANGELOG.md
 [codacy-image]: https://img.shields.io/codacy/grade/58a7e841538a49cc8a5d35eba00e6c07.svg?style=flat-square
 [codacy-url]: https://www.codacy.com/app/commonality/common-vocabulary?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=commonality/common-vocabulary&amp;utm_campaign=Badge_Grade
@@ -124,10 +130,6 @@ Contributions in the form of GitHub pull requests are welcome. Before embarking 
 [contributing-url]: ./CONTRIBUTING.md
 [coveralls-image]: https://img.shields.io/coveralls/github/commonality/common-vocabulary.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/commonality/common-vocabulary
-[bithound-image]: https://img.shields.io/bithound/dependencies/github/commonality/common-vocabulary.svg?style=flat-square
-[bithound-url]: https://www.bithound.io/github/commonality/common-vocabulary/master/dependencies/npm
-[bithound-dev-image]: https://img.shields.io/bithound/devDependencies/github/commonality/common-vocabulary.svg?style=flat-square
-[bithound-dev-url]: https://www.bithound.io/github/commonality/common-vocabulary/master/dependencies/npm
 [fossa-image]: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcommonality%2Fcommon-vocabulary.svg?type=shield&style=flat-square
 [fossa-url]: https://app.fossa.io/projects/git%2Bgithub.com%2Fcommonality%2Fcommon-vocabulary?ref=badge_shield
 [issues-new-defect-image]: https://img.shields.io/badge/report---defect---lightgrey.svg?style=for-the-badge&label=report+a

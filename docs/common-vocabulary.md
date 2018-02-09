@@ -1,6 +1,6 @@
 # Common Vocabulary
 
-> Generated on Thu Feb 08 2018.
+> Generated on Fri Feb 09 2018.
 
 ## Index of terms
 
