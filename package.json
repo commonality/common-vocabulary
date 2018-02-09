@@ -7,7 +7,7 @@
     "email": "greg@swindle.net",
     "url": "https://github.com/gregswindle"
   },
-  "bin": "lib/cli/index.js",
+  "bin": "lib/cli.js",
   "bugs": {
     "url": "https://github.com/commonality/common-vocabulary/issues"
   },
@@ -28,11 +28,13 @@
     ],
     "scope": "\\S+.*"
   },
-  "contributors": [{
-    "name": "Greg Swindle",
-    "email": "greg@swindle.net",
-    "url": "https://github.com/gregswindle"
-  }],
+  "contributors": [
+    {
+      "name": "Greg Swindle",
+      "email": "greg@swindle.net",
+      "url": "https://github.com/gregswindle"
+    }
+  ],
   "dependencies": {
     "bunyan": "1.8.12",
     "conventional-commit-types": "2.2.0",

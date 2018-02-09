@@ -31,8 +31,8 @@
   <blockquote>
   <ul>
   <% _.forEach(entry.conventionalCommitTypes, (change) => { %>
-  <li><em>Scope:</em> <code><%- entry.dt %></code>
-  <p><li><em>Type:</em> <code><%- change %></code>
+  <li><em>Type:</em> <code><%- change %></code>
+  <p><li><em>Scope:</em> <code><%- entry.dt %></code>
   <p>Sample commit message header:
   <pre class="ini"><code><%- change %>(<%- entry.dt %>): lorem ipsum dolor sit amet</code></pre>
   <% }) %>
