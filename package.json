@@ -67,7 +67,7 @@
     "eslint-plugin-security": "1.4.0",
     "eslint-plugin-standard": "3.0.1",
     "eslint-plugin-unicorn": "3.0.1",
-    "eslint-plugin-xss": "0.1.9",
+    "eslint-plugin-xss": "0.1.10",
     "fixpack": "2.3.1",
     "jest": "^22.1.4",
     "jest-cli": "^22.1.4",
